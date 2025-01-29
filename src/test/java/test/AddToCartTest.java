@@ -15,6 +15,7 @@ public class AddToCartTest {
 		public void beforeMethod() throws IOException 
 		{			
 			methodpage.openBrowser(); //open browser
+			print("this is the before method");
 		}
 		
 		@AfterMethod
